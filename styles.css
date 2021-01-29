@@ -1,16 +1,29 @@
+.main{
+    background: url('https://www.seekpng.com/png/full/4-49594_stylish-colorful-wave-background-png-wave-png.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: auto;
+}
+
 .navbar-brand,
 .navbar li a{
     text-transform: capitalize;
     color: rgb(66, 0, 130);
     text-decoration: none;
     padding: 5px;
+    border-radius: 15px;
     transition: 600ms ease;
 }
 
 .navbar-brand:hover,
 .navbar li a:hover{
     background: lightblue;
-    border-radius: 15px;
+}
+
+.rounded{
+    background: white;
 }
 
 .main{
