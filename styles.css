@@ -1,0 +1,53 @@
+.navbar-brand,
+.navbar li a{
+    text-transform: capitalize;
+    color: rgb(66, 0, 130);
+    text-decoration: none;
+    padding: 5px;
+    transition: 600ms ease;
+}
+
+.navbar-brand:hover,
+.navbar li a:hover{
+    background: lightblue;
+    border-radius: 15px;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.left-panel,
+.right-panel{
+    display: flex;
+    align-items: flex-start;
+}
+
+.left-panel{
+    flex-direction: column;
+    justify-content: center;
+}
+
+.left-panel h3{
+    text-transform: capitalize;
+}
+
+.btn{
+    color: #320147;
+    border-radius: 15px;
+    text-transform: capitalize;
+    transition: 700ms ease;
+    font-size: 0.8rem;
+    display: inline-block;
+    width: 100px;
+}
+
+.btn:hover{
+    background: lightblue;
+    color: black;
+    border: 1px solid lightblue;
+}
+
